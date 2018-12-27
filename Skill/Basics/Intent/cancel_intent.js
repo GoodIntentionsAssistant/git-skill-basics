@@ -6,7 +6,7 @@ const Intent = girequire('src/Intent/intent');
 module.exports = class CancelIntent extends Intent {
 
 	setup() {
-		this.train(['@App.Common.Entity.Cancel',], {
+		this.train(['@App.Basics.Entity.Cancel',], {
 			collection: 'cancel'
 		});
 	}
