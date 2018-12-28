@@ -7,7 +7,7 @@ module.exports = class EmotionEntity extends Entity {
 
 	setup() {
 		this.import = {
-			file: "Data.Common.emotion",
+			file: "App.Basics.Data.emotion",
 			type: "json"
 		};
 	}

@@ -16,7 +16,7 @@ module.exports = class CountryEntity extends Entity {
 	}
 
 	load_data(resolve, request) {
-		let promise = this.app.Data.load('Data.Common.countries', 'json');
+		let promise = this.app.Data.load('App.Basics.Data.countries', 'json');
 
 		promise.then((json) => {
 			for(let key in json.entries) {

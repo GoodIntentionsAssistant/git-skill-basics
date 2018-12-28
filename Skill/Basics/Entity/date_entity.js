@@ -9,7 +9,7 @@ module.exports = class DateEntity extends Entity {
 
   setup() {
     this.import = {
-      file: "Data.Common.dates",
+      file: "App.Basics.Data.dates",
       type: "json"
     };
   }

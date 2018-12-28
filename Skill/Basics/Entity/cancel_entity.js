@@ -7,7 +7,7 @@ module.exports = class CancelEntity extends Entity {
 
 	setup() {
 		this.import = {
-			file: "Data.Common.cancel",
+			file: "App.Basics.Data.cancel",
 			type: "json"
 		};
 	}

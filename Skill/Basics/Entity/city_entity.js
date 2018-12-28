@@ -13,7 +13,7 @@ module.exports = class CityEntity extends Entity {
 	}
 
 	load_data(resolve, request) {
-		let promise = this.app.Data.load('Data.Common.cities', 'json');
+		let promise = this.app.Data.load('App.Basics.Data.cities', 'json');
 
 		promise.then((json) => {
 

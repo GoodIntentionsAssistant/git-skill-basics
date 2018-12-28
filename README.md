@@ -1,6 +1,6 @@
-# Good Intentions Skill Common
+# Good Intentions Skill Basics
 
-Common skill for Good Intentions Assistant
+Basic skills, entities and intents for Good Intentions Assistant
 
 ## Documentation
 
