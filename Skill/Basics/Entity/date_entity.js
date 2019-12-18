@@ -2,8 +2,7 @@
  * Date Entity
  */
 const Entity = girequire('src/Entity/entity');
-const moment = require('moment');
-const chrono = require('chrono-node');
+const chrono = girequire('chrono-node');
 
 module.exports = class DateEntity extends Entity {
 

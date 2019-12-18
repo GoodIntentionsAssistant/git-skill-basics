@@ -3,7 +3,6 @@
  */
 const Entity = girequire('src/Entity/entity');
 const Scrubber = girequire('src/Utterance/scrubber');
-const moment = require('moment');
 
 module.exports = class CountryEntity extends Entity {
 
